@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+#contact{
+    height: 180px;
+    margin: auto;
+    width: 20%;
+    background-color: blue;
+    text-align: center;
+    margin-top: 250px;
+    border-radius: 10px;
+    /* position: relative;
+    top: 40%; */
+}
+#con{
+    height: 30px;
+     background-color: pink;
+      border-radius: 10px;
+      text-align: center;
+      padding-top: 10px;
+   
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    margin-top: 40px;
+}
+@media only screen and (max-width:767px){
+    #con{
+        display: inline;
+        /* flex-direction: column; */
+        height: auto;
+        width: auto;
+        margin: auto;
+
+        
+    }
+    .contacta{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #contact{
+         height: auto;
+        width: auto;
+        margin: auto;
+
+    }
+    /* img{
+        height: auto;
+        width: auto;
+    } */
+     body{
+        height: auto;
+        width: auto;
+    }
+    
+}

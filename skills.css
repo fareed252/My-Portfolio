@@ -1,0 +1,65 @@
+#SKILLS{
+    background-color:red;
+    color: purple;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid greenyellow;
+    border-radius: 20%;
+    width: 50%;
+    margin: auto;
+}
+#HTML{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10%;
+    /* border: 5px solid darkred; */
+   
+}
+#CSS{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10%;
+}
+#JS{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.heading{
+    background-color: gold;
+   text-align: center;
+   border-radius: 10%;
+   color: purple;
+}
+#HTML:hover{
+    transform: scale(1.02);
+}
+#CSS:hover{
+    transform: scale(1.02);
+}
+#JS:hover{
+    transform: scale(1.02);
+}
+#NOTE{
+    width: 80%;
+    margin: auto;
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 20%;
+    border: 5PX solid black;
+}
+@media only screen and (max-width:455px){
+    body{
+        height: auto;
+        width: auto;
+    }
+}
